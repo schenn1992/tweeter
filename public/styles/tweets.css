@@ -1,0 +1,93 @@
+.tweet-container {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+article.tweet-articles:hover {
+  opacity: 1;
+  box-shadow: 5px 10px grey;
+}
+
+article.tweet-articles {
+  border: 5px solid;
+  display: flex;
+  flex-direction: column;
+  opacity: 0.4;
+  margin: 25px;
+}
+
+.tweet-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;;
+}
+
+.tweet-footer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  border-top: 5px solid;
+  margin: 0 5px;
+}
+
+.footer-pics {
+  justify-content: space-between;
+}
+
+.header-img img {
+  width: 50px;
+  height: 50px;
+}
+
+.header-img-name {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.header-handle {
+  margin: 0 10px;
+}
+
+.tweet-paragraph {
+  padding-left: 10px;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  display: none;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.alert-empty {
+  display: none;
+  background-color: red;
+}
+
+.alert-over {
+  display: none;
+}
+
+

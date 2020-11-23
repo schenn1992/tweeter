@@ -1,0 +1,36 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
+
+button {
+  font-family: 'Bungee', sans-serif;
+  background-color:  #4056A1;
+  color: aliceblue;
+}
+
+.submitCounter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+#tweet-text {
+  border-style: hidden;
+  border-bottom: solid black;
+  background-color: inherit;
+}
+
+.counter {
+  font-weight: 300;
+  font-family: 'Bungee', sans-serif;
+}
+
+
+
+

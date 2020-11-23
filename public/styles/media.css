@@ -1,0 +1,12 @@
+
+ /* Desktops: minimum width of 1024px */
+@media only screen and (min-width: 1024px) {
+   .head-tweets {
+     display: flex;
+   }
+   .page-header {
+    padding: 50px;
+    margin: 50px;
+   }
+}
+
